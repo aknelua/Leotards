@@ -1,0 +1,83 @@
+body {
+   background-color: rgba(131, 106, 128, 0.767);
+}
+.title{
+    border-style: groove;
+    border-color: rgba(186, 178, 194, 0.39);
+}
+.search-bar{
+   margin-left: 50px; 
+  background-color: rgb(204, 146, 194);
+    color: rgb(131, 106, 128);;
+}
+.search_botton{
+    color:rgba(131, 106, 128, 0.767);;
+}
+
+.logo{
+    font-size: 50px;
+    display:inline-block;
+    margin-left: 30px;
+    font-family:Beau Rivage ;
+}
+.Kontakt{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+.MainPhoto{
+    width: 200px;
+    border-radius: 45%;
+}
+.MainPhoto:hover{
+    opacity: 90%;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, .5);
+}
+
+.Presentation{
+    margin-top: 20px;
+    margin-left: 20px;
+    display:inline-block;
+    width: 200px;
+
+}
+.p_Present{
+    font-family:Beau Rivage ;
+    text-align: center;
+    font-size: 40px;
+}
+.pKontakt{
+    text-align: left;
+}
+
+.inst{
+    display: inline-block;
+    margin-top: 5px; 
+}
+
+
+p{
+    
+    font-size: 15px;
+    text-align: center;
+    /* background-color: rgb(223, 150, 178); */
+    color: rgb(240, 234, 236);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.rent_botton{ 
+    background-color: rgb(204, 146, 194);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family:Amatic SC ;
+    color: aliceblue;
+    margin-left: 65px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, .3);
+}
+.rent_botton:hover{
+    opacity: 60%;
+
+}
+
