@@ -1,0 +1,140 @@
+body {
+   background-color: rgba(131, 106, 128, 0.767);
+}
+.container{
+	 max-width: 1140px;
+	 margin: 0 auto;
+}
+p{
+	font-size: 16px;
+	text-align: center;
+	color: rgb(240, 234, 236);
+	margin-top: 0px;
+	margin-bottom: 0px;
+  }
+  a{
+	color: white;
+	text-decoration: none;
+  }
+/* ___________________header____________________________ */
+.title__container{
+    border-style: groove;
+    border-color: rgba(186, 178, 194, 0.39);
+	 margin-bottom: 15px;
+}
+.search-bar{
+   margin-left: 50px; 
+  	background-color: rgb(204, 146, 194);
+   color: rgb(131, 106, 128);;
+}
+.search_botton{
+    color:rgba(131, 106, 128, 0.767);;
+}
+.logo{
+    font-size: 50px;
+	 padding: 20px;
+    font-family:Beau Rivage ;
+	 border-bottom: groove  rgba(186, 178, 194, 0.39);
+	 transition: all 0.5s ease;
+	 animation-duration: 3s;
+	}
+.contact{
+    display:flex;
+	 flex-direction: column;
+	 justify-content:space-between;
+	 align-items: flex-start;
+	 margin: 10px; 
+}
+.contact>:not(:last-child){
+	margin-bottom: 10px;
+}
+.contact :last-child{
+	align-self: center;
+}
+.contact__img{
+	height: 24px;
+}
+
+.contacts__social>:not(:last-child){
+	margin-right: 15px;
+}
+.social{
+	display: inline-block;
+	margin-top: 5px; 
+	color:rgb(112, 77, 143);
+	transition: all 0.5s ease;
+}
+.social:hover{
+  box-shadow: 0px 0px 10px rgba(255, 255, 255),inset 0px 0px 10px rgba(255, 255, 255);
+  color:rgb(87, 39, 129);
+  border-radius: 30%;
+}
+.phone, .adress {
+	transition: all 0.5s ease;
+}
+.phone:hover, .adress:hover{
+	text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
+
+
+/*___________________main____________________________ */
+
+.main__container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main__link{
+	display:inline-block;
+	position: relative;
+}
+
+.MainPhoto{
+    width: 200px;
+    border-radius: 45%;
+	 opacity: 0.8;
+	 top:50px;
+	 z-index: 0;
+	 transition: all 1s ease;
+}
+
+.MainPhoto:hover{
+    opacity:1;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, .5);
+	 transform: scale(1.1);
+}
+.Presentation{
+    padding: 0px 10px 35px;
+}
+.main__link .more{
+	position: absolute;
+	color:rgba(255, 255, 255, 0.856);
+	font-weight: 800;
+	font-family:Amatic SC;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+	top: 35%;
+	left: 15%;
+	pointer-events: none;
+	opacity: 0;
+	transition: all 1s ease;
+}
+.main__link:hover .more{
+	opacity:1;
+}
+.p_Present{
+	 font-family:Beau Rivage ;
+    font-size: 40px;
+}
+
+@media (min-width: 650px) {
+	.title__container{
+		display: flex;
+		justify-content: space-between;
+  }
+  .logo{
+		border-bottom: none;
+  }
+}
+
