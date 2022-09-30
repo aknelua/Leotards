@@ -83,6 +83,7 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
 }
 .main__link{
 	display:inline-block;
@@ -136,5 +137,10 @@ p{
   .logo{
 		border-bottom: none;
   }
+}
+@media (max-width: 455px) {
+	.main__container{
+		flex-direction: column;
+	}
 }
 
