@@ -133,14 +133,29 @@ p{
 	.title__container{
 		display: flex;
 		justify-content: space-between;
-  }
-  .logo{
+	}
+	.logo{
 		border-bottom: none;
-  }
+	}
 }
 @media (max-width: 455px) {
 	.main__container{
 		flex-direction: column;
 	}
+	.title__container{
+		position: sticky;
+		top: 0px;
+	 	background-color: rgb(172, 153, 170);
+		z-index: 5;
+	}
+	.logo{
+		padding: 0px;
+	}
+	.contact{
+		margin: 5px;
+ 	 }
+ 	 .contact>:not(:last-child){
+		  margin-bottom: 5px;
+ 	 }
 }
 
